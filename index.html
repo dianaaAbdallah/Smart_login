@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>CRUD operation</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/icomoonstyle.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+<div class="container-fluid min-vh-100 bg-primary d-flex justify-content-center align-content-center pt-5 pb-5">
+<div class="main w-75 shadow-lg rounded-2 d-flex justify-content-center align-content-center flex-column">
+<h1 >Smart Login System</h1>
+
+<div class="d-flex justify-content-center align-items-center flex-column">
+  <input type="text" class="btn m-3 btn-light opacity-75 form-control w-50 " id="loginEmail" name="loginEmail" placeholder="Enter User Email">
+  <input type="password" class="btn m-3 btn-light opacity-75 form-control w-50 " id="loginPassword" name="loginPassword" placeholder="Enter User Password">
+  <p class="text-danger d-none" id="rquiredMsg">fill the inputs first</p>
+  <p class="text-danger d-none" id="wrongMsg">your email or password is incorrect</p>
+  <a class="btn btn-outline-secondary  mb-3 text-decoration-none" id="loginBtn" onclick="login()">Login</a>
+  <p class="text-black">Don't have an accoount? <a href="signUp.html" class="text-black text-decoration-none">Sign Up</a></p>
+</div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

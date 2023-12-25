@@ -1,0 +1,43 @@
+
+
+/* General setting */
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+  }
+  @font-face {
+    font-family: Righteous;
+    src: url(../fonts/Righteous/Righteous-Regular.ttf);
+  }
+
+
+/* Caption setting */
+
+.main
+{
+    background-image: url(../images/winter-lake.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.home
+{
+  background-image: url(../images/giphy\ \(2\).gif);
+  background-position: center;
+  background-size: cover;
+}
+.caption
+{
+    background-color: antiquewhite;
+    opacity:75%;
+}
+h1{
+    font-family: Pacifico ;
+    font-weight: 600;
+    width: fit-content;
+
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+  
+}

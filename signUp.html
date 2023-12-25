@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Smart login</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/icomoonstyle.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+<div class="container-fluid min-vh-100 bg-primary d-flex justify-content-center align-content-center pt-5 pb-5">
+<div class="main w-75 shadow-lg rounded-2 d-flex justify-content-center align-content-center flex-column">
+<h1 >Smart Login System</h1>
+
+<div class="d-flex justify-content-center align-items-center flex-column">
+  <input type="text" class="btn m-3 btn-light opacity-75 form-control w-50 " id="usernameInput" name="userName" placeholder="Enter User name">
+  <p id="usernameAlert" class="d-none text-danger">include at least 3 letters starting with capital, second name is optional</p>
+  <input type="email" class="btn m-3 btn-light opacity-75 form-control w-50 " id="userEmailInput" name="email" placeholder="Enter Email">
+  <p id="userEmailAlert" class="d-none text-danger">name@example.com</p>
+  <input type="password" class="btn m-3 btn-light opacity-75 form-control w-50 " id="userPasswordInput" name="userPass" placeholder="Enter User Password">
+  <p id="userPasswordAlert" class="d-none text-danger m-0">your password, must  6 to 8 characters</p>
+  <p class="text-success d-none" id="confirmMsg">Success</p>
+            <p class="text-danger d-none mb-0" id="accountExistMsg">this account is exist ! Try another one.</p>
+            <p class="text-danger d-none mb-0" id="tryAgainMsg">signUp failed ! Try again</p>
+            <a id="signupBtn" onclick="signUp()" class="btn btn-outline-secondary mb-3 mt-4 text-decoration-none">Sign Up</a>
+            <p class="text-black d-block">you have an accoount? <a href="index.html" class="text-black text-decoration-none">Sign In</a></p>
+</div>
+</div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
